@@ -101,3 +101,7 @@ header .hamburger{
 }
 
 /* FOOTER */
+footer{
+    background-color: var(--bg-header);
+    color: white;
+}
