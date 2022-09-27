@@ -4,6 +4,11 @@ html{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+ul{
+    list-style-type: none;
+    margin: 0;
+}
+
 /* Variables */
 :root{
     /* Palette */
@@ -16,4 +21,32 @@ html{
     --bg-blue: #1C83C1;
     --bg-dark-blue: #0E38B5;
     --bg-light-orange: #CCB2A3;
+    --grey: #888888;
+}
+
+/* HEADER */
+header{
+    color: white;
+    background-color: var(--bg-header);
+}
+
+header ul li{
+    display: inline-block;
+    padding: 0 .5em;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: inherit;
+}
+
+header .hamburger{
+    color: var(--grey);
+    text-align: center;
+}
+
+.hamburger i{
+    padding: .5em .8em;
+    border: 1px solid var(--grey);
+    border-radius: 5px;
 }
