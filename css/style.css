@@ -50,3 +50,19 @@ header .hamburger{
     border: 1px solid var(--grey);
     border-radius: 5px;
 }
+
+/* MAIN */
+/* Jumbotron */
+#jumbotron{
+    background-color: var(--bg-acquamarine);
+    color: white;
+    text-align: center;
+}
+
+#jumbotron img{
+    width: 250px;
+}
+
+#jumbotron ul li{
+    display: inline-block;
+}
