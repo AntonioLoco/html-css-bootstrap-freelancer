@@ -29,9 +29,19 @@ img{
 
 /* Buttons */
 .btn{
+    display: inline-block;
     border: 1px solid white;
     color: white;
-    letter-spacing: 1px;
+    text-align: center;
+}
+
+.btn-social{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid white;
+    color: white;
     text-align: center;
 }
 
@@ -83,3 +93,11 @@ header .hamburger{
     background-color: var(--bg-acquamarine);
     color: white;
 }
+
+/* Information */
+#information{
+    background-color: var(--bg-footer);
+    color: white;
+}
+
+/* FOOTER */
