@@ -9,18 +9,16 @@ ul{
     margin: 0;
 }
 
+img{
+    max-width: 100%;
+}
+
 /* Variables */
 :root{
     /* Palette */
     --bg-header: #2C3E50;
     --bg-footer: #3A546D;
-    
     --bg-acquamarine: #1ABC9C;
-    --bg-red: #BA4B63;
-    --bg-light-blue: #1EA4B6;
-    --bg-blue: #1C83C1;
-    --bg-dark-blue: #0E38B5;
-    --bg-light-orange: #CCB2A3;
     --grey: #888888;
 }
 
