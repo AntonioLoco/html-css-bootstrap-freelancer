@@ -45,6 +45,42 @@ img{
     text-align: center;
 }
 
+/* Stars */
+.stars{
+    position: relative;
+    font-size: 1.5rem;
+}
+
+.stars::after,
+.stars::before{
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 3px;
+    border-radius: 5px;
+    background-color: white;
+    transform: translateY(-50%);
+}
+
+.stars.dark::after,
+.stars.dark::before{
+    background-color: black;
+}
+
+.stars::after{
+    top: 50%;
+    right: 50px;
+}
+
+.stars::before{
+    top: 50%;
+    left: 50px;
+}
+
+
+
+
+
 /* HEADER */
 header{
     color: white;
