@@ -13,6 +13,11 @@ img{
     max-width: 100%;
 }
 
+.container-small{
+    width: 80%;
+    margin: 0 auto;
+}
+
 /* Variables */
 :root{
     /* Palette */
@@ -20,6 +25,14 @@ img{
     --bg-footer: #3A546D;
     --bg-acquamarine: #1ABC9C;
     --grey: #888888;
+}
+
+/* Buttons */
+.btn{
+    border: 1px solid white;
+    color: white;
+    letter-spacing: 1px;
+    text-align: center;
 }
 
 /* HEADER */
@@ -63,4 +76,10 @@ header .hamburger{
 
 #jumbotron ul li{
     display: inline-block;
+}
+
+/* About */
+#about{
+    background-color: var(--bg-acquamarine);
+    color: white;
 }
