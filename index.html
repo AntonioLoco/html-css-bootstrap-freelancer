@@ -17,24 +17,29 @@
 </head>
 <body>
     <!-- Header -->
-    <header>
+    <header class="ms_bg-header ms_color-white">
         <!-- Container -->
         <div class="container">
-            <div class="row justify-content-between align-items-center py-4">
+            <nav class="row justify-content-between align-items-center py-4">
+                <!-- Left Header -->
                 <div class="col-8 col-md-6">
                     <h2>START BOOTSTRAP</h2>
                 </div>
+                <!-- /Left Header -->
+
+                <!-- Right Header -->
                 <div class="col-2 col-md-6">
-                    <ul class="d-none d-md-block text-end">
+                    <ul class="ms_menu-list d-none d-md-block text-end">
                         <li><a href="">PORTFOLIO</a></li>
                         <li><a href="">ABOUT</a></li>
                         <li><a href="">CONTACT</a></li>
                     </ul>
-                    <div class="hamburger d-md-none">
+                    <div class="ms_hamburger ms_color-grey d-md-none text-end">
                         <i class="fa-solid fa-bars"></i>
                     </div>
                 </div>
-            </div>
+                <!-- /Right Header -->
+            </nav>
         </div>
         <!-- /Container -->
     </header>
@@ -43,8 +48,8 @@
     <!-- Main -->
     <main>
         <!-- Jumbotron -->
-        <section id="jumbotron">
-            <div class="container py-3">
+        <section id="jumbotron" class="ms_bg-acquamarine ms_color-white text-center">
+            <div class="container py-5">
                 <img src="img/avatar.svg" alt="Photo avatar">
                 <h2 class="mt-2">START BOOTSTRAP</h2>
                 <span class="stars d-inline-block mb-2"><i class="fa-solid fa-star"></i></span>
@@ -89,9 +94,9 @@
         <!-- /Portfolio -->
 
         <!-- About -->
-        <section id="about">
+        <section id="about" class="ms_bg-acquamarine ms_color-white">
             <div class="container py-5">
-                <div class="container-small text-center">
+                <div class="ms_container-small text-center">
                     <h2>ABOUT</h2>
                     <span class="stars d-inline-block mb-2"><i class="fa-solid fa-star"></i></span>
                     <div class="row text-start g-4 justify-content-center row-cols-1 row-cols-md-2">
@@ -113,16 +118,20 @@
         <!-- Contact -->
         <section id="contact">
             <div class="container py-5">
-                <div class="container-small text-center">
+                <div class="ms_container-small text-center">
                     <h2>CONTACT ME</h2>
                     <span class="stars dark d-inline-block mb-2"><i class="fa-solid fa-star"></i></span>
                 </div>
             </div>
         </section>
         <!-- /Contact -->
+    </main>
+    <!-- /Main -->
 
+    <!-- Footer -->
+    <footer>
         <!-- Information -->
-        <section id="information">
+        <div class="ms_footer-top ms_bg-footer ms_color-white">
             <div class="container text-center py-5">
                 <div class="row g-4 row-cols-1 row-cols-md-3">
                     <div class="col">
@@ -144,14 +153,9 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
         <!-- /Information -->
-    </main>
-    <!-- /Main -->
-
-    <!-- Footer -->
-    <footer>
-        <div class="container">
+        <div class="ms_footer-bottom container ms_bg-header ms_color-white">
             <p class="text-center py-3 mb-0">Copyright <i class="fa-regular fa-copyright"></i> Your Website 2022</p>
         </div>
     </footer>

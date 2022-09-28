@@ -13,7 +13,7 @@ img{
     max-width: 100%;
 }
 
-.container-small{
+.ms_container-small{
     width: 80%;
     margin: 0 auto;
 }
@@ -21,10 +21,41 @@ img{
 /* Variables */
 :root{
     /* Palette */
-    --bg-header: #2C3E50;
-    --bg-footer: #3A546D;
-    --bg-acquamarine: #1ABC9C;
-    --grey: #888888;
+    --ms-color-header: #2C3E50;
+    --ms-color-footer: #3A546D;
+    --ms-color-acquamarine: #1ABC9C;
+    --ms-color-grey: #888888;
+}
+
+/* Background */
+.ms_bg-header{
+    background-color: var(--ms-color-header);
+}
+
+.ms_bg-footer{
+    background-color: var(--ms-color-footer);
+}
+
+.ms_bg-acquamarine{
+    background-color: var(--ms-color-acquamarine);
+}
+
+/* Color */
+
+.ms_color-black{
+    color: black;
+}
+
+.ms_color-black{
+    color: black;
+}
+
+.ms_color-white{
+    color: white;
+}
+
+.ms_color-white{
+    color: white;
 }
 
 /* Buttons */
@@ -77,45 +108,26 @@ img{
     left: 50px;
 }
 
-
-
-
-
 /* HEADER */
-header{
-    color: white;
-    background-color: var(--bg-header);
-}
 
-header ul li{
+header .ms_menu-list li{
     display: inline-block;
     padding: 0 .5em;
 }
 
-header ul li a{
+header .ms_menu-list li a{
     text-decoration: none;
     color: inherit;
 }
 
-header .hamburger{
-    color: var(--grey);
-    text-align: center;
-}
-
-.hamburger i{
+.ms_hamburger i{
     padding: .5em .8em;
-    border: 1px solid var(--grey);
+    border: 1px solid var(--ms-color-grey);
     border-radius: 5px;
 }
 
 /* MAIN */
 /* Jumbotron */
-#jumbotron{
-    background-color: var(--bg-acquamarine);
-    color: white;
-    text-align: center;
-}
-
 #jumbotron img{
     width: 250px;
 }
@@ -124,20 +136,8 @@ header .hamburger{
     display: inline-block;
 }
 
-/* About */
-#about{
-    background-color: var(--bg-acquamarine);
-    color: white;
-}
-
 /* Information */
 #information{
-    background-color: var(--bg-footer);
-    color: white;
-}
-
-/* FOOTER */
-footer{
-    background-color: var(--bg-header);
+    background-color: var(--ms-color-footer);
     color: white;
 }
