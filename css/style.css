@@ -59,14 +59,14 @@ img{
 }
 
 /* Buttons */
-.btn{
+.ms_btn{
     display: inline-block;
     border: 1px solid white;
     color: white;
     text-align: center;
 }
 
-.btn-social{
+.ms_btn-social{
     display: inline-block;
     width: 40px;
     height: 40px;
@@ -136,8 +136,20 @@ header .ms_menu-list li a{
     display: inline-block;
 }
 
-/* Information */
-#information{
-    background-color: var(--ms-color-footer);
-    color: white;
+/* Contact */
+/* form */
+textarea.form-control{
+    min-height: 150px;
+}
+
+.form-control{
+    border-radius: 0;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
+.form-control:focus{
+    box-shadow: none;
+    border-color: var(--ms-color-grey);
 }
