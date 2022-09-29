@@ -14,7 +14,7 @@ img{
 }
 
 .ms_container-small{
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
 }
 
@@ -70,7 +70,7 @@ img{
     transform: scale(1.2);
 }
 
-/* Btn acquamarine Hover */
+/* Btn Form contact */
 :not(.btn-check)+.btn:hover{
     background-color: var(--ms-color-acquamarine);
     transform: scale(1.2);
@@ -133,6 +133,7 @@ header .ms_menu-list li a{
 /* Contact */
 /* form */
 textarea.form-control{
+    resize: none;
     min-height: 150px;
 }
 
@@ -145,5 +146,5 @@ textarea.form-control{
 
 .form-control:focus{
     box-shadow: none;
-    border-color: var(--ms-color-grey);
+    border-color: var(--ms-color-acquamarine);
 }
