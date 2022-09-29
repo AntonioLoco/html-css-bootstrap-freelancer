@@ -78,19 +78,20 @@ img{
 
 /* Stars */
 .stars{
-    position: relative;
     font-size: 1.5rem;
+    vertical-align: middle;
 }
 
 .stars::after,
 .stars::before{
     content: "";
-    position: absolute;
+    display: inline-block;
     width: 100px;
     height: 3px;
     border-radius: 5px;
     background-color: white;
-    transform: translateY(-50%);
+    vertical-align: middle;
+    margin: 0 .5em;
 }
 
 .stars.dark::after,
@@ -98,18 +99,7 @@ img{
     background-color: black;
 }
 
-.stars::after{
-    top: 50%;
-    right: 50px;
-}
-
-.stars::before{
-    top: 50%;
-    left: 50px;
-}
-
 /* HEADER */
-
 header .ms_menu-list li{
     display: inline-block;
     padding: 0 .5em;
