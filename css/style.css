@@ -48,6 +48,7 @@ img{
     text-align: center;
 }
 
+
 .ms_btn-social{
     display: inline-block;
     width: 40px;
@@ -56,6 +57,23 @@ img{
     border: 1px solid white;
     color: white;
     text-align: center;
+}
+
+.ms_btn-social:hover{
+    transform: scale(1.2);
+    color: white;
+}
+
+/* Btn white Hover */
+.btn:first-child:hover{
+    border-color: white;
+    transform: scale(1.2);
+}
+
+/* Btn acquamarine Hover */
+:not(.btn-check)+.btn:hover{
+    background-color: var(--ms-color-acquamarine);
+    transform: scale(1.2);
 }
 
 /* Stars */
@@ -100,6 +118,10 @@ header .ms_menu-list li{
 header .ms_menu-list li a{
     text-decoration: none;
     color: inherit;
+}
+
+.ms_menu-list li:hover{
+    color: var(--ms-color-grey);
 }
 
 .ms_hamburger i{
